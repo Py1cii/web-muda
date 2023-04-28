@@ -1,0 +1,45 @@
+// THEME COLORS
+$primary: #326dee !default;
+$secondary: #1ac888 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+// COLORS PALETTE
+
+$black: #000000;
+$white: #ffffff;
+$yellow: #f6c31c;
+
+// TYPOGRAPHY
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+// h4,
+// h5,
+// h6 {
+
+// }
+
+p {
+  margin-top: 0;
+}
+
+// UTILITIES [margin, padding, opacity, etc..]
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
