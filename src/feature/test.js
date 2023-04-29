@@ -1,6 +1,7 @@
 import React from 'react';
 import './../../src/App.css';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Button } from '@mui/material';
 
 function Test() {
   return (
@@ -15,19 +16,24 @@ function Test() {
           </h1>
         </div>
 
-        <div class='flex flex-ai-c'>
+        <Button variant='outlined' class='menu flex flex-ai-c'>
           <GiHamburgerMenu size={35}/>
-        </div>
+        </Button>
 
         <div>
           <h1>
             JOM
           </h1>
-          <p>
+          <p style={{color: 'black'}}>
             sertai kami
           </p>
         </div>
       </header>
+
+      <body>
+        <p style={{color:'red'}}>Statistic</p>
+        <p>Artikel & Berita</p>
+      </body>
 
     </div>
   );

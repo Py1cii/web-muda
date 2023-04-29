@@ -6,9 +6,22 @@ $info: #f6c31c !default;
 
 // COLORS PALETTE
 
-$black: #000000;
+$black-100: #000000; // --black 100%
+
+$black-200: #333333; // --gray-base 20%   
+$black-250: #404040; // --gray-base 25%   
+$black-300: #191919; // --gray-base 30%   
+$black-350: #2c2c2c; // --gray-base 35%
+$black-400: #666666; // --gray-base 40%
+$black-500: #8a8a8a; // --gray-base 50%
+$black-600: #999999; // --gray-base 60%
+$black-800: #cccccc; // --gray-base 80%
+
 $white: #ffffff;
 $yellow: #f6c31c;
+
+// Custom Colors
+$body-bg: $black-300;
 
 // TYPOGRAPHY
 h1,

@@ -27,7 +27,7 @@ header {
 }
 
 body {
-  background: #326dee;
+  background: #191919;
 }
 
 .logo {
@@ -37,6 +37,10 @@ body {
   box-sizing: border-box;
   padding: 1.5rem;
   color: red;
+}
+
+.menu {
+  background-color: #f6c31c;
 }
 
 * {
