@@ -40,7 +40,11 @@ body {
 }
 
 .menu {
-  background-color: #f6c31c;
+  background: #f6c31c;
+}
+
+.box {
+  background: #333333;
 }
 
 * {

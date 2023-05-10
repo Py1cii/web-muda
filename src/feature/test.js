@@ -1,7 +1,7 @@
 import React from 'react';
 import './../../src/App.css';
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Button } from '@mui/material';
+import { Box, Button, Card } from '@mui/material';
 
 function Test() {
   return (
@@ -31,7 +31,18 @@ function Test() {
       </header>
 
       <body>
-        <p style={{color:'red'}}>Statistic</p>
+        <Box style={{color:'red'}} class='box flex flex-jc-c'>
+          <Card>
+            JUMLAH AHLI
+          </Card>
+          <Card>
+            LELAKI 50%%%
+          </Card>
+          <Card>
+            WANITA 20%
+          </Card>
+        </Box>
+        
         <p>Artikel & Berita</p>
       </body>
 
